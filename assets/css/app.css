@@ -6,6 +6,52 @@ body{
 	height: 100%;
 	position: absolute;
 }
+/*primer boton flotante*/
+#float_button{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	margin: 2% 0 0 0;
+	right: 20px;
+}
+#float_button:hover{
+	background-color: #1b7b79;
+	transition-duration: 0.25s;
+}
+#float_button img{
+	display: inline-block;
+	width: 80%;
+	height: 80%;
+	margin: 10%;
+	filter: invert(1);
+}
+/*segundo boton flotante*/
+#float_button2{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	margin: 2% 0 0 0;
+	right: 20px;
+	bottom: 20px;
+}
+#float_button2:hover{
+	background-color: #1b7b79;
+	transition-duration: 0.25s;
+}
+#float_button2 img{
+	display: inline-block;
+	width: 80%;
+	height: 80%;
+	margin: 10%;
+	filter: invert(1);
+}
+/*fin*/
 #infoPage{
 	width: 100%;
 	height: 2.25%;
@@ -72,14 +118,16 @@ body{
 	margin: 0;
 	font-family: sans-serif;
 	margin-top: 2%;
+	color: #3e3039;
 }
 #experience_top h1 span{
-	color: blue;
+	color: #48d1d8;
 }
 #experience_top h2{
 	text-align: center;
 	margin: 0;
 	font-family: sans-serif;
+	color: gray;
 }
 #experience_down{
 	height: 65%;
@@ -495,7 +543,7 @@ body{
 	font-size: 3em;
 	text-align: center;
 	font-family: sans-serif;
-	color: black;
+	color: #3e3039;
 	margin: 2% 0 0 0;
 }
 #img_container{
@@ -605,7 +653,7 @@ body{
 }
 #class_time_top h4{
 	text-align: center;
-	color: black;
+	color: #3e3039;
 	font-size: 3em;
 	font-family: sans-serif;
 	margin: 4% 0 0 0;
@@ -716,9 +764,13 @@ body{
 #text_thingNameNSocial h3{
 	display: inline-block;
 	margin: 40% 0 0 3%;
+	color: white;
+	font-family: sans-serif;
 }
 #text_thingNameNSocial h5{
 	margin: 6% 0 0 3%;
+	color: white;
+	font-family: sans-serif;
 }
 #text_thingNameNSocial a{
 	margin-top: 5%;
@@ -736,9 +788,14 @@ body{
 #text_thingName_text h3{
 	margin: 7% 2% 0 0;
 	font-size: 0.75em;
+	font-family: sans-serif;
+	color: white;
 }
 #horario_square:hover{
 	background-color: #323d80;
+	box-shadow: 
+  	inset 5px 5px 5px gray, 
+  	inset -5px -5px 5px gray;
 }
 .background{
 	background-image: url("shrek_para.jpg");
@@ -822,6 +879,7 @@ body{
 	text-align: center;
 	font-size: 3em;
 	font-family: sans-serif;
+	color: #3e3039;
 }
 #prizes_box{
 	width: 24.75%;
@@ -885,6 +943,7 @@ body{
 #name_n_prize h5{
 	font-size: 1.125em;
 	margin: 0;
+	display: inline-block;
 }
 #shop_buton_pushase_all{
 	width: 10%;
@@ -965,6 +1024,7 @@ a #shop_buton_pushase_all:hover{
 	display: inline-block;
 	margin: 1.5%;
 	float: left;
+	filter: brightness(20);
 }
 #social_bottom_container h3,a{
 	float: left;
@@ -974,11 +1034,13 @@ a #shop_buton_pushase_all:hover{
 }
 #social_bottom_container a{
 	float: right;
+	font-family: sans-serif;
 }
 #social_bottom_container h4{
 	float: left;
 	color: white;
 	margin: 3% 6% 0 0;
+	font-family: sans-serif;
 }
 #boton_book{
 	width: 100%;
@@ -991,6 +1053,7 @@ a #shop_buton_pushase_all:hover{
 }
 #social_bottom_container h3{
 	float: right;
+	font-family: sans-serif;
 }
 #fotter_container img{
 	width: 20%;
@@ -1008,6 +1071,11 @@ a #shop_buton_pushase_all:hover{
 	margin-left: 5.25%;
 	margin-top: 5%;
 	text-align: center;
+	font-family: sans-serif;
+	color: gray;
+}
+#shortcuts_lel a:hover{
+	color: white;
 }
 #social_botones{
 	width: 25%;
@@ -1017,7 +1085,8 @@ a #shop_buton_pushase_all:hover{
 	margin-top: 2%;
 }
 #social_botones a{
-	margin-right: 10.15%; 
+	margin-right: 10.15%;
+	font-family: sans-serif; 
 }
 #social_circles{
 	width: 45px;
@@ -1035,10 +1104,6 @@ a #shop_buton_pushase_all:hover{
 	height: 70%;
 	margin: 14%;
 }
-#copyright{
-	width: 100%;
-	display: inline-block;
-	text-align: center;}
 #horario_square h5{
 	margin: 0;
 	text-align: center;
@@ -1047,13 +1112,13 @@ a #shop_buton_pushase_all:hover{
 #info_into h2{
 	margin-top: 5%;
 	margin-left: 5%;
-	color: gray;
+	color: #3a3a3a;
 	font-family: sans-serif;
 }
 #info_into h3,li{
 	margin-top: 10%;
 	margin-left: 5%;
-	color: gray;
+	color: #3a3a3a;
 	font-family: sans-serif;
 }
 #info_into h3{
@@ -1068,6 +1133,7 @@ a #shop_buton_pushase_all:hover{
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 3em;
+	color: #3e3039;
 }
 #fechas_eventos{
 	height: 22.5%;
@@ -1080,7 +1146,7 @@ a #shop_buton_pushase_all:hover{
 	height: 85px;
 	border-radius: 50%;
 	display: inline-block;
-	border-width: 2px;
+	border-width: 3px;
 	border-style: solid;
 	border-color: white;
 	margin: 3% 1% 0 1%;
@@ -1090,21 +1156,27 @@ a #shop_buton_pushase_all:hover{
 	text-align: center;
 	margin: 18% 0 0 35%;
 	font-size: 2em;
+	color: #3e5e71;
 }
 #circulo_fecha h5{
 	text-align: center;
 	margin: 0;
 }
 #fechas_eventos h3{
-	font-size: 1.5em;
+	font-size: 1.25em;
 	display: inline-block;
+	font-family: sans-serif;
+	color: #415584;
 }
 #fechas_eventos h5{
 	margin: 0;
+	font-family: sans-serif;
+	color: #3a3a3a;
 }
 #zone_xd{
 	width: 50%;
 	height: 2%;
+	font-family: sans-serif;
 }
 #zone_xd img h4{
 	float: left;
@@ -1113,11 +1185,26 @@ a #shop_buton_pushase_all:hover{
 	margin: 3% 0 0 0;
 	font-size: 1.15em;
 	float: left;
+	color: #3a3a3a;
 }
-#circulos_raros{
-	background-color: red;
+#copyright{
+	width: 100%;
 	display: inline-block;
-	width: 80px;
-	height: 80px;
-	float: left;
+	text-align: center;
+	font-family: sans-serif;
+	color: gray;
+	font-size: .75em;
+}
+#copyright h3 span{
+	color: #c3c3c3;
+}
+.offerta{
+	color: #f98c9f;
+}
+.precioA{
+	color: gray;
+	text-decoration: line-through;
+}
+.precioF{
+	color: gray
 }
